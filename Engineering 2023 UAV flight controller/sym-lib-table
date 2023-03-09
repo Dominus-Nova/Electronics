@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "MPU-6500")(type "KiCad")(uri "${KIPRJMOD}/component library/MPU-6500/2023-03-09_05-54-31.kicad_sym")(options "")(descr ""))
+  (lib (name "SX1280")(type "KiCad")(uri "${KIPRJMOD}/component library/SX1280/2023-03-09_05-53-20.kicad_sym")(options "")(descr ""))
+  (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/component library/MMC5983MA/2023-03-09_06-13-01.kicad_sym")(options "")(descr ""))
+)

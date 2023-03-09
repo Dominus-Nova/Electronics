@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "MPU-6500")(type "KiCad")(uri "${KIPRJMOD}/component library/MPU-6500/footprints.pretty")(options "")(descr ""))
+  (lib (name "SX1280")(type "KiCad")(uri "${KIPRJMOD}/component library/SX1280/footprints.pretty")(options "")(descr ""))
+  (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/component library/MMC5983MA/footprints.pretty")(options "")(descr ""))
+)
