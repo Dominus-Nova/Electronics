@@ -5350,7 +5350,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6f828fd-63cc-4093-9750-81b165547109)
   )
-  (label "QSPI_SS" (at 22.86 219.71 0)
+  (label "QSPI_SCLK" (at 22.86 219.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db279c67-2515-4913-8733-1bedb3109107)
   )
