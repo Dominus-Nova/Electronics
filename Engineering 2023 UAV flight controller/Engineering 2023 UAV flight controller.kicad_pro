@@ -379,10 +379,12 @@
         "microvia_drill": 0.1,
         "name": "power",
         "nets": [
+          "/1.1V internal rp2040 reg",
           "/3.3v rail",
           "/ESC positive rail",
           "/Servo 6V rail",
           "/USB_C positive rail",
+          "/reg in",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
