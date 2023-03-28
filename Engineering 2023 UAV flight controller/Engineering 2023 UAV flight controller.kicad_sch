@@ -5978,7 +5978,7 @@
   (symbol (lib_id "power:GND") (at 378.46 83.82 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 327f7b34-80f1-4521-a294-57654123d483)
-    (property "Reference" "#PWR?" (id 0) (at 378.46 90.17 0)
+    (property "Reference" "#PWR0103" (id 0) (at 378.46 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 378.46 87.63 0))
@@ -7101,7 +7101,7 @@
   (symbol (lib_id "power:GND") (at 227.33 279.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b5323627-abb6-41cf-a4b4-c72d95aa002f)
-    (property "Reference" "#PWR?" (id 0) (at 227.33 285.75 0)
+    (property "Reference" "#PWR0102" (id 0) (at 227.33 285.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 227.33 284.48 0))
@@ -8085,11 +8085,11 @@
     (path "/ff4156ad-3af5-4eca-9442-300ad265bb41"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
-    (path "/327f7b34-80f1-4521-a294-57654123d483"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b5323627-abb6-41cf-a4b4-c72d95aa002f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/327f7b34-80f1-4521-a294-57654123d483"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/f66f51dd-2d15-4126-b425-b6a429a2f2e4"
       (reference "#SYM1") (unit 1) (value "SYM_Radio_Waves_Large") (footprint "Symbol:KiCad-Logo2_5mm_SilkScreen")
