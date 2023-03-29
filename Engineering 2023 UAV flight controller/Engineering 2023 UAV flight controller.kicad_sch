@@ -8070,7 +8070,7 @@
     (uuid cba63941-61fa-4b4b-9985-1ec80e22491b)
     (property "Reference" "C38" (id 0) (at 370.84 83.82 90))
     (property "Value" "47u" (id 1) (at 375.92 80.01 90))
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 375.92 82.55 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_5x3" (id 2) (at 375.92 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 375.92 82.55 0)
@@ -9042,7 +9042,7 @@
       (reference "C37") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/cba63941-61fa-4b4b-9985-1ec80e22491b"
-      (reference "C38") (unit 1) (value "47u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C38") (unit 1) (value "47u") (footprint "Capacitor_SMD:CP_Elec_5x3")
     )
     (path "/f1ac7a2c-9d99-4f4c-8436-c84f3d4531ff"
       (reference "C39") (unit 1) (value "2u2") (footprint "Capacitor_SMD:C_0603_1608Metric")
