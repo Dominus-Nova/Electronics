@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\techd\Documents\electronics\github repo\Electronics\Engineering 2023 UAV flight controller\Engineering 2023 UAV flight controller.kicad_sch</source>
+    <date>1/04/2023 4:17:29 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Engineering 2023 UAV flight controller</title>
+        <company>Mann co.</company>
+        <rev>1</rev>
+        <date>2023-03-21</date>
+        <source>Engineering 2023 UAV flight controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bc2a611-1c4f-4533-b885-925736035c3c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d392f5e6-7e73-447b-8180-50d37f545f37</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58fb61e9-bc02-4baa-9e17-4b0420a1d4a3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56b0dc52-0622-4e1b-a5bd-792682b419e9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.33u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af130136-fdff-4165-853b-0a11662b24f9</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>680u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d970e05a-08ec-4a80-afdb-898409a13a3e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48107bc9-a940-4caf-91dc-4720bad8bb78</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3945933a-7198-4294-ba3e-c38ad2dc5f68</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>27p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7572bddd-17be-4af6-89f8-701f2312e8da</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b7745e8-8b11-4f70-95ba-221ee9dc1665</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba30029a-25cf-44c6-8bf4-ca2663d90e9d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ccdd6a4-24f7-497b-8994-2398db7633f8</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77c5925-3a8b-4fa1-ae48-a1e69b7e76cb</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2558a66-2864-47e9-8d66-0bc5e13b13e3</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e5537bc-0a61-4c4c-b597-ca92e100ebcd</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd098f7c-3f88-4d03-9c69-ee65224ccf4a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebc74225-8933-42ea-b627-8900251fd8d9</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4edcaedd-53a5-4977-85df-f5be456b2101</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>547b694f-1a84-4984-8a2a-089ec9b3bfe7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d455b9b-e042-4018-a1cc-67c2c36d7293</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19360bdd-5919-4d8c-8037-4ba8281ba9a7</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b54388db-9d71-4c2d-aa33-b9d5cf044b2a</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e08cf375-bebc-4219-9901-925dc3be560a</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e27c2b1-016f-4c2b-b3a5-abf9654cf82d</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fdd125c-cf16-4d7a-ae6a-8e1a48efbe3a</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6ef1303-ac51-46be-8f1c-3f504af0f2ba</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>2n2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98b11de5-325c-4d1e-83ee-8453d3d6d397</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d41661a-2a6d-4832-a225-6b090f84f5d6</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb6aec0-66be-472e-ac9f-cad95e0b522b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dd5f922-eefa-448c-856f-fe52e76315b1</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79a3a07e-0edc-4b2b-87f7-e6cfd60cd7af</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>125abd26-57bc-45a9-8a6b-2b6e8a71a023</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3148b39-5c55-45ef-a56c-c50b9087cba8</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72d40768-3946-40bc-9452-9af8791e09a5</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36aeb98a-1057-42dc-b488-3c8ed5e1e3b3</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d65343f2-c66f-4705-8ffc-5027e219d412</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6894e1d6-44af-4abf-899d-a1e8944eb7fa</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:CP_Elec_5x3</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cba63941-61fa-4b4b-9985-1ec80e22491b</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1ac7a2c-9d99-4f4c-8436-c84f3d4531ff</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5b0d03e-69c0-4c4c-aaa2-91ff30894c12</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88cbf3bf-79bb-4ade-9a34-3d82901419fd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c450af-5577-4528-bb4f-2acfd572dc3a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08a8f3e7-ff45-4c6a-b1db-3463c50370b1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dc7824d-f970-474e-a437-108f86daa474</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e33d674c-ed49-4b35-8e98-291101a6ce20</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6391b3b-2dc7-49ff-9058-36771fb69bb7</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value> BLM15HD102SN1</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bed8dec8-358f-4d1f-bf20-9ed2ea9b8f7c</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value> BLM15HD102SN1</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b152cd1e-3f4b-4da4-876f-e00c1a56670d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f595217f-213b-47ee-8de5-450b11e7d9a2</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07889ad4-45c3-4f97-b038-e1b4d20b2a0a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca4151f2-1f25-419e-9d28-f56e4e726493</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cf3cf31-7265-4259-8d35-548d1e6b2422</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LM2577SX-ADJ_NOPB</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/LM2577</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LM2577SX-ADJ/NOPB</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lm2577sx-adjnopb/texas-instruments?region=nac</field>
+        <field name="Description">SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2577SX-ADJ/NOPB</field>
+        <field name="Mouser Part Number">926-LM2577SXADJNOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2577SX-ADJ-NOPB?qs=X1J7HmVL2ZH8mODru%2FJBBw%3D%3D</field>
+      </fields>
+      <libsource lib="LM2577SX-ADJ_NOPB" part="LM2577SX-ADJ_NOPB" description="SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator"/>
+      <property name="Description" value="SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LM2577SX-ADJ/NOPB"/>
+      <property name="Mouser Part Number" value="926-LM2577SXADJNOPB"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2577SX-ADJ-NOPB?qs=X1J7HmVL2ZH8mODru%2FJBBw%3D%3D"/>
+      <property name="Arrow Part Number" value="LM2577SX-ADJ/NOPB"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/lm2577sx-adjnopb/texas-instruments?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>406cb148-776b-4495-8741-9c38334f3acd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_SD_Card</value>
+      <footprint>Connector_Card:microSD_HC_Hirose_DM3D-SF</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b831070f-41fa-4fff-9268-47aed16ea16b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ESC speed control</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee2d7551-8ac1-4618-9348-753907aeb052</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e4874c5-bb67-487a-a563-b4752538e5fc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-143_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f69ea24c-9712-4e78-b9cc-463c16bbdc73</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>external power rail</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6524d838-5b8b-4832-9fc1-5c6ed920df35</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>246b8c98-d7e7-443b-aad9-7edd67057629</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>external ground rail</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ee82663-1215-434b-ae2c-e1374e4dec94</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Serial wire debug</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fa488af-53c3-45e1-b79b-e54404ca816a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>reset short?</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e7adfd3-1d93-4f2f-991f-95f93168bdb5</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>DIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75ab8a7c-e121-4839-95d9-9491132a7c1a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc8522b1-a32f-47b1-a665-2dfc5f15cba2</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b37fe0-a20a-4c73-b541-7cd70d704844</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>100u</value>
+      <footprint>Inductor_SMD:L_Wuerth_WE-PD-Typ-LS</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ff3814a-176f-4d1a-86b0-17a2ea1f0fb7</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Aileron Left</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40a1cc5-fbc2-4c1e-9349-e721bb07408e</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Aileron Right</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5803e7c-8b9f-45cb-9ce9-ade452865f1b</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Elevator Left</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10ec48c8-c7b5-43a4-bb63-38ddcdfa745e</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Elevator Right</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>http://forums.parallax.com/uploads/attachments/46831/74481.png</datasheet>
+      <libsource lib="Motor" part="Motor_Servo" description="Servo Motor (Futaba, HiTec, JR connector)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e2503e3-7522-4959-b540-6c7684261f30</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>820c8ba5-b561-404b-bc17-46c6751e0ea8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fbf5e04-404d-4e30-b8d9-e4cbb81f9f0c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190db31f-23de-4a5f-b028-8237ba532468</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89b5fc67-115f-4978-a789-fbd88e21005e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d728b9f3-ba9a-4fae-859a-bb20749dbbe6</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dcbc1f8-2a7c-47fe-8c71-475836b13893</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd61c2e1-61d7-43db-8a52-e44ad50da27a</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>27.4</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3ab49ad-a302-46ab-a1a5-20b10cfae269</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>27.4</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>def9a6da-f0e3-4313-a92f-da19949e8632</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f570193-a56c-439f-867b-de58eba654ca</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29d0e6ee-a29f-4612-bb62-28782c6dd789</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4c97b9b-cb95-47c9-9a82-9059cebc2d34</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a34f0f-be02-462d-845c-2eabb3d91b55</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c100fc2e-5163-41bb-9152-fe7d598b5c37</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50a335e0-c9dc-4085-8c54-e8eea5cab610</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22d1635a-00ad-4784-96ac-b2370a452d13</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edf4e202-400c-4726-be5d-5407fc808c9a</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>883a228f-7cdc-4669-8a94-309e1bfae9f1</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a859c833-32d1-48a4-9b68-1dc6f9544e3b</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>090dcf65-de98-412d-a96c-ba15795dc975</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd55f09c-35c8-4e3f-847c-f1a8c886baa8</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c82a77c-290f-4e00-8453-9b533ca74c97</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>4FSH922</value>
+      <footprint>Button_Switch_SMD:SW_MEC_5GSH9</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/MEC%20SWITCHES/Illumec%E2%84%A2_%204F.pdf</datasheet>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44108057-3edb-47ba-946a-1a1e76c88ee8</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ebcccf-7798-4690-a176-da8862cc8317</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>6v tp</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb52725f-b5dc-48e8-a8e3-a233020a93a0</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>3.3 tp</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8704bf2c-f25b-4bef-97e7-ca68ee49d0b3</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>NEO 3.3 tp</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02789b51-1bec-4903-a0c2-afdcc7ac1727</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb4ababd-9d84-4cb4-9819-3b736e569a7a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NCP1117-3.3_TO252</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="NCP1117-3.3_TO252" description="1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c43e98-77ba-4399-9050-be112a04e136</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LP2987-3.3_WSON8</value>
+      <footprint>Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2987.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP2987-3.3_WSON8" description="200mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, WSON-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5340dd00-bd1d-4d7f-a311-118bc0185ef8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RP2040</value>
+      <footprint>Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</datasheet>
+      <libsource lib="MCU_RaspberryPi" part="RP2040" description="A microcontroller by Raspberry Pi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f533f208-5866-4107-8bef-f037f6fadcf0</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LPS25HB</value>
+      <footprint>Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lps25hb.pdf</datasheet>
+      <libsource lib="Sensor_Pressure" part="LPS25HB" description="MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>086c040a-8d0c-4636-8a95-9927006aef9c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MPU-6050</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</footprint>
+      <datasheet>https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="MPU-6050" description="InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9211a47-fea8-4662-af29-47476d08d959</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MMC5983MA</value>
+      <footprint>MMC5983MA:MMC5983MA</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf</datasheet>
+      <libsource lib="MMC5983MA" part="MMC5983MA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>357beecd-919b-401e-b840-f3b5be37c3a3</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>E28-2G4M27S</value>
+      <footprint>SX1280:E28-2G4M27S</footprint>
+      <datasheet>https://www.ebyte.com/en/downpdf.aspx?id=537</datasheet>
+      <libsource lib="SX1280" part="E28-2G4M27S" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48e6ae9c-2b96-4b89-bc19-8b5e9d4f9e9b</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>NEO-M8N</value>
+      <footprint>RF_GPS:ublox_NEO</footprint>
+      <datasheet>https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf</datasheet>
+      <libsource lib="RF_GPS" part="NEO-M8N" description="GNSS Module NEO M8, VCC 2.7V to 3.6V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e13b45e6-ba83-4cc9-8b4d-4ff4bcc84adc</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ABLS-12.000MHZ-B4-T</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <datasheet>https://abracon.com/Resonators/ABLS.pdf</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Engineering 2023 UAV flight controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0261b40d-5a8c-4d5c-ac37-e46612ace541</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/693072010801.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM2577SX-ADJ_NOPB" part="LM2577SX-ADJ_NOPB">
+      <description>SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</description>
+      <docs>http://www.ti.com/lit/gpn/LM2577</docs>
+      <fields>
+        <field name="Reference">IC?</field>
+        <field name="Value">LM2577SX-ADJ_NOPB</field>
+        <field name="Footprint">KTT0005B</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/LM2577</field>
+        <field name="Description">SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2577SX-ADJ/NOPB</field>
+        <field name="Mouser Part Number">926-LM2577SXADJNOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2577SX-ADJ-NOPB?qs=X1J7HmVL2ZH8mODru%2FJBBw%3D%3D</field>
+        <field name="Arrow Part Number">LM2577SX-ADJ/NOPB</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/lm2577sx-adjnopb/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FEEDBACK" type="passive"/>
+        <pin num="3" name="GND_1" type="passive"/>
+        <pin num="4" name="SWITCH" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+        <pin num="6" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi" part="RP2040">
+      <description>A microcontroller by Raspberry Pi</description>
+      <docs>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*7x7mm?P0.4mm?EP3.2x3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="passive"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="input"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="passive"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="passive"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29_ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="passive"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="passive"/>
+        <pin num="50" name="DVDD" type="passive"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MMC5983MA" part="MMC5983MA">
+      <footprints>
+        <fp>MMC5983MA_MEM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MMC5983MA</field>
+        <field name="Footprint">MMC5983MA_MEM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPI_SCK" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="SPI_CS" type="input"/>
+        <pin num="5" name="SPI_SDO" type="output"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="CAP" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="VDDIO" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="INT" type="output"/>
+        <pin num="16" name="SDA/SPI_SDI" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_Servo">
+      <description>Servo Motor (Futaba, HiTec, JR connector)</description>
+      <docs>http://forums.parallax.com/uploads/attachments/46831/74481.png</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_Servo</field>
+        <field name="Datasheet">http://forums.parallax.com/uploads/attachments/46831/74481.png</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PWM" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_GPS" part="NEO-M8N">
+      <description>GNSS Module NEO M8, VCC 2.7V to 3.6V</description>
+      <docs>https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf</docs>
+      <footprints>
+        <fp>ublox*NEO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NEO-M8N</field>
+        <field name="Footprint">RF_GPS:ublox_NEO</field>
+        <field name="Datasheet">https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{SAFEBOOT}" type="input"/>
+        <pin num="2" name="D_SEL" type="input"/>
+        <pin num="3" name="TIMEPULSE" type="output"/>
+        <pin num="4" name="EXTINT" type="input"/>
+        <pin num="5" name="USB_DM" type="bidirectional"/>
+        <pin num="6" name="USB_DP" type="bidirectional"/>
+        <pin num="7" name="VDD_USB" type="power_in"/>
+        <pin num="8" name="~{RESET}" type="input"/>
+        <pin num="9" name="VCC_RF" type="power_out"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="RF_IN" type="input"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="LNA_EN" type="output"/>
+        <pin num="15" name="RESERVED" type="no_connect"/>
+        <pin num="16" name="RESERVED" type="no_connect"/>
+        <pin num="17" name="RESERVED" type="no_connect"/>
+        <pin num="18" name="SDA/~{SPI_CS}" type="bidirectional"/>
+        <pin num="19" name="SCL/SPI_CLK" type="input"/>
+        <pin num="20" name="TXD/SPI_MISO" type="output"/>
+        <pin num="21" name="RXD/SPI_MOSI" type="input"/>
+        <pin num="22" name="V_BCKP" type="power_in"/>
+        <pin num="23" name="VCC" type="power_in"/>
+        <pin num="24" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP2987-3.3_WSON8">
+      <description>200mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, WSON-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp2987.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*4x4mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2987-3.3_WSON8</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp2987.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="DELAY" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="OUT" type="power_out"/>
+        <pin num="6" name="SENSE" type="input"/>
+        <pin num="7" name="~{ERROR}" type="output"/>
+        <pin num="8" name="~{SHTD}" type="input"/>
+        <pin num="9" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-3.3_TO252">
+      <description>1A Low drop-out regulator, Fixed Output 3.3V, TO-252 (DPAK)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-3.3_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SX1280" part="E28-2G4M27S">
+      <docs>https://www.ebyte.com/en/downpdf.aspx?id=537</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">E28-2G4M27S</field>
+        <field name="Footprint">SX1280:E28-2G4M27S</field>
+        <field name="Datasheet">https://www.ebyte.com/en/downpdf.aspx?id=537</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="MISO_TX" type="output"/>
+        <pin num="4" name="MOSI_RX" type="input"/>
+        <pin num="5" name="SCK_RTSN" type="input"/>
+        <pin num="6" name="NSS_CTS" type="input"/>
+        <pin num="7" name="GND" type="output"/>
+        <pin num="8" name="RX_EN" type="input"/>
+        <pin num="9" name="TX_EN" type="input"/>
+        <pin num="10" name="GND" type="output"/>
+        <pin num="11" name="NRESET" type="input"/>
+        <pin num="12" name="BUSY" type="output"/>
+        <pin num="13" name="DIO1" type="input"/>
+        <pin num="14" name="DIO2" type="input"/>
+        <pin num="15" name="DIO3" type="input"/>
+        <pin num="16" name="GND" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-6050">
+      <description>InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C</description>
+      <docs>https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</docs>
+      <footprints>
+        <fp>*QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-6050</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm</field>
+        <field name="Datasheet">https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKIN" type="input"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="AUX_SDA" type="bidirectional"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0" type="input"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="CPOUT" type="passive"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="SCL" type="input"/>
+        <pin num="24" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="LPS25HB">
+      <description>MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter</description>
+      <docs>www.st.com/resource/en/datasheet/lps25hb.pdf</docs>
+      <footprints>
+        <fp>ST?HLGA*2.5x2.5mm*P0.6mm*LayoutBorder3x2y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LPS25HB</field>
+        <field name="Footprint">Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lps25hb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDio" type="power_in"/>
+        <pin num="2" name="SCL/SCLK" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="SDA/MOSI" type="bidirectional"/>
+        <pin num="5" name="SA0/MISO" type="bidirectional"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="INT_DRDY" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_LED">
+      <description>Push button switch with LED, generic</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/MEC%20SWITCHES/Illumec%E2%84%A2_%204F.pdf</docs>
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">4FSH922</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/MEC%20SWITCHES/Illumec%E2%84%A2_%204F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="LM2577SX-ADJ_NOPB">
+      <uri>C:\Users\techd\Documents\electronics\github repo\Electronics\Engineering 2023 UAV flight controller/component library/LM2577/LM2577SX-ADJ_NOPB.kicad_sym</uri>
+    </library>
+    <library logical="MCU_RaspberryPi">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_RaspberryPi.kicad_sym</uri>
+    </library>
+    <library logical="MMC5983MA">
+      <uri>C:\Users\techd\Documents\electronics\github repo\Electronics\Engineering 2023 UAV flight controller/component library/MMC5983MA/MMC5983MA.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="RF_GPS">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/RF_GPS.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="SX1280">
+      <uri>C:\Users\techd\Documents\electronics\github repo\Electronics\Engineering 2023 UAV flight controller/component library/SX1280/SX1280.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Motion.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Pressure.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/-">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/1.1V internal rp2040 reg">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U4" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U4" pin="50" pinfunction="DVDD" pintype="passive"/>
+    </net>
+    <net code="4" name="/3.3v rail">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="33" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="42" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U4" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
+      <node ref="U4" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U4" pin="49" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U7" pin="13" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="SPI_CS" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="5" name="/Aileron Left PWM">
+      <node ref="M1" pin="1" pinfunction="PWM" pintype="passive"/>
+      <node ref="U4" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Aileron Right PWM">
+      <node ref="M2" pin="1" pinfunction="PWM" pintype="passive"/>
+      <node ref="U4" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CC1">
+      <node ref="J3" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/CC2">
+      <node ref="J3" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/DIO1">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="DIO1" pintype="input"/>
+    </net>
+    <net code="10" name="/DIO2">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U8" pin="14" pinfunction="DIO2" pintype="input"/>
+    </net>
+    <net code="11" name="/DIO3">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U8" pin="15" pinfunction="DIO3" pintype="input"/>
+    </net>
+    <net code="12" name="/ESC PWM">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/ESC positive rail">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="14" name="/Elevator Left PWM">
+      <node ref="M3" pin="1" pinfunction="PWM" pintype="passive"/>
+      <node ref="U4" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Elevator Right PWM">
+      <node ref="M4" pin="1" pinfunction="PWM" pintype="passive"/>
+      <node ref="U4" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/External_pin_1">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/External_pin_2">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/External_pin_3">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/External_pin_4">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/External_pin_5">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/External_pin_6">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U4" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/External_pin_7">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U4" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/External_pin_8">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/External_pin_9">
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U4" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/External_pin_10">
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U4" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/FEEDBACK">
+      <node ref="IC1" pin="2" pinfunction="FEEDBACK" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/IMU_AUX_SCL">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="AUX_SCL" pintype="output"/>
+      <node ref="U7" pin="1" pinfunction="SCL/SPI_SCK" pintype="input"/>
+    </net>
+    <net code="28" name="/IMU_AUX_SDA">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="AUX_SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="16" pinfunction="SDA/SPI_SDI" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/IMU_CPOUT">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="CPOUT" pintype="passive"/>
+    </net>
+    <net code="30" name="/IMU_INT">
+      <node ref="U6" pin="12" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="31" name="/IMU_REGOUT">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="32" name="/IMU_SCL">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U6" pin="23" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="33" name="/IMU_SDA">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+      <node ref="U6" pin="24" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/L-D">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="SWITCH" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="/LORA SCK">
+      <node ref="U4" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U8" pin="5" pinfunction="SCK_RTSN" pintype="input"/>
+    </net>
+    <net code="36" name="/LORA_BUSY">
+      <node ref="U4" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+      <node ref="U8" pin="12" pinfunction="BUSY" pintype="output"/>
+    </net>
+    <net code="37" name="/LORA_MISO">
+      <node ref="U4" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+      <node ref="U8" pin="3" pinfunction="MISO_TX" pintype="output"/>
+    </net>
+    <net code="38" name="/LORA_MOSI">
+      <node ref="U4" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="MOSI_RX" pintype="input"/>
+    </net>
+    <net code="39" name="/LORA_RX_EN">
+      <node ref="U4" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+      <node ref="U8" pin="8" pinfunction="RX_EN" pintype="input"/>
+    </net>
+    <net code="40" name="/LORA_TX_EN">
+      <node ref="U4" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+      <node ref="U8" pin="9" pinfunction="TX_EN" pintype="input"/>
+    </net>
+    <net code="41" name="/LORA_~{RESET}">
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="NRESET" pintype="input"/>
+    </net>
+    <net code="42" name="/LORA_~{SS}">
+      <node ref="U4" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U8" pin="6" pinfunction="NSS_CTS" pintype="input"/>
+    </net>
+    <net code="43" name="/LPS_INT_DRDY">
+      <node ref="U5" pin="7" pinfunction="INT_DRDY" pintype="output"/>
+    </net>
+    <net code="44" name="/MMC_CAP">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="CAP" pintype="power_in"/>
+    </net>
+    <net code="45" name="/MMC_INT">
+      <node ref="U7" pin="15" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="46" name="/NEO 3.3v rail">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="6" pinfunction="SENSE" pintype="input"/>
+      <node ref="U9" pin="22" pinfunction="V_BCKP" pintype="power_in"/>
+      <node ref="U9" pin="23" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="47" name="/NEO_FB_RXD">
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="U9" pin="21" pinfunction="RXD/SPI_MOSI" pintype="input"/>
+    </net>
+    <net code="48" name="/NEO_FB_TXD">
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U9" pin="20" pinfunction="TXD/SPI_MISO" pintype="output"/>
+    </net>
+    <net code="49" name="/NEO_RF_IN">
+      <node ref="J4" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="11" pinfunction="RF_IN" pintype="input"/>
+    </net>
+    <net code="50" name="/NEO_RXD">
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/NEO_TIMEPULSE">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="TIMEPULSE" pintype="output"/>
+    </net>
+    <net code="52" name="/NEO_TXD">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/NEO_VCC_RF">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U9" pin="9" pinfunction="VCC_RF" pintype="power_out"/>
+    </net>
+    <net code="54" name="/NEO_~{RESET}">
+      <node ref="U9" pin="8" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="55" name="/QSPI_SCLK">
+      <node ref="U1" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U4" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+    </net>
+    <net code="56" name="/QSPI_SD0">
+      <node ref="U1" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U4" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/QSPI_SD1">
+      <node ref="U1" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U4" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/QSPI_SD2">
+      <node ref="U1" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U4" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/QSPI_SD3">
+      <node ref="U1" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U4" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/QSPI_SS">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="/RUN">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="62" name="/SWCLK">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="SWCLK" pintype="output"/>
+    </net>
+    <net code="63" name="/SWD">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/Servo 6V rail">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="M3" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="65" name="/USB_C positive rail">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J3" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="66" name="/USB_D_N">
+      <node ref="J3" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J3" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="/USB_D_P">
+      <node ref="J3" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J3" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="/XIN">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="69" name="/XOUT">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="XOUT" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="70" name="/led_green">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="/led_green_2">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="/led_red_2">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="/microSD_CLK">
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="/microSD_CS">
+      <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="/microSD_MISO">
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="/microSD_MOSI">
+      <node ref="J1" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="/phantom power">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="/reg in">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VIN" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="~{SHTD}" pintype="input"/>
+    </net>
+    <net code="79" name="/sw_led">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="/sw_r">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="81" name="/~{CS}">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VDDio" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="82" name="/~{LDO_ERROR}">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="~{ERROR}" pintype="output"/>
+    </net>
+    <net code="83" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="IC1" pin="3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J1" pin="9" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="M2" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="M3" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="M4" pin="3" pinfunction="-" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="DELAY" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="TESTEN" pintype="input"/>
+      <node ref="U4" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SA0/MISO" pintype="bidirectional"/>
+      <node ref="U5" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="CLKIN" pintype="input"/>
+      <node ref="U6" pin="11" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U6" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="AD0" pintype="input"/>
+      <node ref="U7" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="GND" pintype="output"/>
+      <node ref="U8" pin="16" pinfunction="GND" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="output"/>
+      <node ref="U9" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="24" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="VDD_USB" pintype="power_in"/>
+    </net>
+    <net code="84" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="COMP" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="DAT2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J3-PadA8)">
+      <node ref="J3" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J3-PadB8)">
+      <node ref="J3" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U6-Pad4)">
+      <node ref="U6" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U6-Pad5)">
+      <node ref="U6" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U6-Pad14)">
+      <node ref="U6" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U6-Pad15)">
+      <node ref="U6" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U6-Pad16)">
+      <node ref="U6" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U6-Pad17)">
+      <node ref="U6" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U6-Pad19)">
+      <node ref="U6" pin="19" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U6-Pad21)">
+      <node ref="U6" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U6-Pad22)">
+      <node ref="U6" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="SPI_SDO" pintype="output+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U7-Pad6)">
+      <node ref="U7" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U7-Pad7)">
+      <node ref="U7" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U7-Pad8)">
+      <node ref="U7" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U7-Pad12)">
+      <node ref="U7" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U7-Pad14)">
+      <node ref="U7" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U9-Pad1)">
+      <node ref="U9" pin="1" pinfunction="~{SAFEBOOT}" pintype="input+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U9-Pad2)">
+      <node ref="U9" pin="2" pinfunction="D_SEL" pintype="input+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U9-Pad4)">
+      <node ref="U9" pin="4" pinfunction="EXTINT" pintype="input+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U9-Pad5)">
+      <node ref="U9" pin="5" pinfunction="USB_DM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U9-Pad6)">
+      <node ref="U9" pin="6" pinfunction="USB_DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U9-Pad14)">
+      <node ref="U9" pin="14" pinfunction="LNA_EN" pintype="output+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U9-Pad15)">
+      <node ref="U9" pin="15" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U9-Pad16)">
+      <node ref="U9" pin="16" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U9-Pad17)">
+      <node ref="U9" pin="17" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U9-Pad18)">
+      <node ref="U9" pin="18" pinfunction="SDA/~{SPI_CS}" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U9-Pad19)">
+      <node ref="U9" pin="19" pinfunction="SCL/SPI_CLK" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
