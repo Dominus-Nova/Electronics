@@ -8307,7 +8307,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d6391b3b-2dc7-49ff-9058-36771fb69bb7)
     (property "Reference" "D5" (id 0) (at 128.5875 13.97 0))
-    (property "Value" "D_Schottky" (id 1) (at 128.5875 16.51 0))
+    (property "Value" "1N5821" (id 1) (at 128.5875 16.51 0))
     (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 128.27 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -9217,7 +9217,7 @@
       (reference "D4") (unit 1) (value "LED_RED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/d6391b3b-2dc7-49ff-9058-36771fb69bb7"
-      (reference "D5") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SMA")
+      (reference "D5") (unit 1) (value "1N5821") (footprint "Diode_SMD:D_SMA")
     )
     (path "/bed8dec8-358f-4d1f-bf20-9ed2ea9b8f7c"
       (reference "FB1") (unit 1) (value " BLM15HD102SN1") (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder")
