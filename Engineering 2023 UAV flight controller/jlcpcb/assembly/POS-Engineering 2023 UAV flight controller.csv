@@ -4,7 +4,7 @@ C2,0.1uf,C_0603_1608Metric,132.0,-128.35,-90.0,top
 C3,1uf,C_0603_1608Metric,162.475,-121.825,90.0,top
 C4,0.1uf,C_0603_1608Metric,164.275,-121.825,90.0,top
 C5,0.33u,C_0603_1608Metric,145.2,-129.575,-90.0,top
-C6,680u,CP_Elec_8x6.5,142.8,-113.6,90.0,top
+C6,680u,CP_Elec_8x6.5,142.6,-113.0,90.0,top
 C7,100n,C_0603_1608Metric,157.775,-103.625,180.0,top
 C8,27p,C_0603_1608Metric,156.55,-73.375,-90.0,top
 C9,27p,C_0603_1608Metric,148.025,-73.375,-90.0,top
@@ -32,11 +32,11 @@ C30,10u,C_0603_1608Metric,138.8,-63.0,180.0,top
 C31,0.1u,C_0603_1608Metric,138.8,-64.6,180.0,top
 C32,0.1u,C_0603_1608Metric,184.2,-73.0,180.0,top
 C33,10u,C_0603_1608Metric,178.8,-73.124999,180.0,top
-C34,1u,C_0603_1608Metric,182.0,-71.524999,90.0,top
+C34,1u,C_0603_1608Metric,181.9,-71.524999,90.0,top
 C35,10n,C_0603_1608Metric,161.0,-52.6,180.0,top
 C36,1u,C_0603_1608Metric,179.15,-66.45,180.0,top
 C37,100n,C_0603_1608Metric,154.05,-101.1,-90.0,top
-C38,47u,CP_Elec_5x3,134.2,-112.2,0.0,top
+C38,47u,CP_Elec_5x3,134.2,-109.6,0.0,top
 C39,2u2,C_0603_1608Metric,151.8,-59.8,90.0,top
 C40,4u7,C_0603_1608Metric,159.8,-61.025,-90.0,top
 C41,2u2,C_0603_1608Metric,158.6,-57.2,90.0,top
@@ -44,7 +44,7 @@ D1,LED_GREEN,LED_0603_1608Metric,181.875,-102.6,180.0,top
 D2,LED_GREEN,LED_0603_1608Metric,157.8,-124.2,0.0,top
 D3,LED_RED,LED_0603_1608Metric,122.4,-112.8,0.0,top
 D4,LED_RED,LED_0603_1608Metric,184.4,-58.75,-90.0,top
-D5,D_Schottky,D_SMA,132.2,-118.775,-90.0,top
+D5,1N5821,D_SMC,133.6,-117.6,-90.0,top
 FB1, BLM15HD102SN1,L_0402_1005Metric_Pad0.77x0.64mm_HandSolder,178.4,-62.8,180.0,top
 FB2, BLM15HD102SN1,L_0402_1005Metric_Pad0.77x0.64mm_HandSolder,178.4,-61.6,180.0,top
 IC1,LM2577SX-ADJ_NOPB,TO-263-5_TabPin3,138.6,-131.175,-90.0,top
@@ -59,7 +59,7 @@ J8,Serial wire debug,PinHeader_1x02_P2.54mm_Vertical,137.0,-75.4,0.0,top
 J9,reset short?,PinHeader_1x02_P2.54mm_Vertical,133.2,-78.0,180.0,top
 J10,DIO,PinHeader_1x03_P2.54mm_Vertical,152.34,-46.2,-90.0,top
 L1,27n,L_0603_1608Metric,163.6,-51.8,90.0,top
-L2,100u,L_Wuerth_WE-PD-Typ-LS,123.8,-122.575,90.0,top
+L2,47u,L_Wuerth_WE-PD-Typ-LS,123.6,-122.575,90.0,top
 M1,Aileron Left,PinHeader_1x03_P2.54mm_Vertical,124.225,-97.4,-90.0,top
 M2,Aileron Right,PinHeader_1x03_P2.54mm_Vertical,124.225,-100.9,-90.0,top
 M3,Elevator Left,PinHeader_1x03_P2.54mm_Vertical,124.2,-104.65,-90.0,top

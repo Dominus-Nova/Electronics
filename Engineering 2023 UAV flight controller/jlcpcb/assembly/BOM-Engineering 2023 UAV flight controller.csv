@@ -24,7 +24,7 @@ MPU-6050,U6,InvenSense_QFN-24_4x4mm_P0.5mm,C24112
 2n2,C27,C_0603_1608Metric,C309517
 10u,"C23,C28,C30,C33",C_0603_1608Metric,C326057
 4u7,"C21,C40",C_0603_1608Metric,C326580
-27p,"C8,C9",C_0603_1608Metric,C519484
+27p,"C8,C9",C_0603_1608Metric,C107045
 W25Q128JVS,U1,SOIC-8_5.23x5.23mm_P1.27mm,C97521
 27n,L1,L_0603_1608Metric,C98072
 Micro_SD_Card,J1,microSD_HC_Hirose_DM3D-SF,
@@ -51,8 +51,8 @@ Serial wire debug,J8,PinHeader_1x02_P2.54mm_Vertical,
 MountingHole_Pad,H2,MountingHole_3.2mm_M3_Pad_Via,
 MountingHole_Pad,H1,MountingHole_3.2mm_M3_Pad_Via,
 MountingHole_Pad,H4,MountingHole_3.2mm_M3_Pad_Via,
-100u,L2,L_Wuerth_WE-PD-Typ-LS,
-D_Schottky,D5,D_SMA,
+47u,L2,L_Wuerth_WE-PD-Typ-LS,
+1N5821,D5,D_SMC,
 6v tp,TP1,TestPoint_Pad_D2.5mm,
 MountingHole_Pad,H3,MountingHole_3.2mm_M3_Pad_Via,
 reset short?,J9,PinHeader_1x02_P2.54mm_Vertical,
