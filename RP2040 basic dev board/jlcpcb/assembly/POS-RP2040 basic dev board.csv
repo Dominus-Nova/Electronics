@@ -1,0 +1,35 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10u,C_0603_1608Metric,203.2,-71.9,0.0,top
+C2,1u,C_0603_1608Metric,203.2,-73.4,0.0,top
+C3,51p,C_0603_1608Metric,189.225,-103.75,180.0,top
+C4,100n,C_0603_1608Metric,192.0,-84.2,0.0,top
+C5,51p,C_0603_1608Metric,192.225,-103.75,0.0,top
+C6,22u,C_0603_1608Metric,206.2,-73.4,0.0,top
+C7,100n,C_0603_1608Metric,196.8,-101.3,-90.0,top
+C8,100n,C_0603_1608Metric,192.8,-86.5,90.0,top
+C9,1u,C_0603_1608Metric,197.2,-87.5,90.0,top
+C10,100n,C_0603_1608Metric,200.9,-88.9,0.0,top
+C11,100n,C_0603_1608Metric,200.9,-90.4,0.0,top
+C12,1u,C_0603_1608Metric,198.7,-87.5,90.0,top
+C13,100n,C_0603_1608Metric,187.2,-95.4,180.0,top
+C14,100n,C_0603_1608Metric,194.3,-86.5,90.0,top
+C15,100n,C_0603_1608Metric,195.3,-101.3,-90.0,top
+C16,100n,C_0603_1608Metric,201.3,-95.1,0.0,top
+C17,100n,C_0603_1608Metric,186.8,-91.0,180.0,top
+D1,LED_Green,LED_0603_1608Metric,201.8,-86.6,180.0,top
+J1,serial wire debug,PinSocket_1x03_P2.54mm_Vertical,198.175,-115.375,90.0,top
+J2,gpio 2,PinSocket_1x19_P2.54mm_Vertical,175.5,-69.68,0.0,top
+J3,gpio 1,PinSocket_1x19_P2.54mm_Vertical,211.8,-115.4,180.0,top
+J4,USB_C_Receptacle_USB2.0,USB_C_Receptacle_JAE_DX07S016JA1R1500,195.1,-69.0,180.0,top
+R1,1k,R_0603_1608Metric,183.2,-73.2,-90.0,top
+R2,DNF,R_0603_1608Metric,185.7,-72.6,0.0,top
+R3,1k,R_0603_1608Metric,192.225,-102.25,0.0,top
+R4,1k,R_0603_1608Metric,201.8,-85.0,0.0,top
+R5,DNF,R_0603_1608Metric,201.5,-101.4,-90.0,top
+R6,5k1,R_0603_1608Metric,194.85,-82.685,90.0,top
+R7,5k1,R_0603_1608Metric,196.35,-82.685,90.0,top
+SW1,SW_Push,SW_TH_Tactile_Omron_B3F-10xx,181.95,-66.05,0.0,top
+U1,AMS1117-3.3,SOT-223-3_TabPin2,203.1,-79.8,-90.0,top
+U2,W25Q128JVS,SOIC-8_5.23x5.23mm_P1.27mm,187.6,-80.3,-90.0,top
+U3,RP2040,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,194.4,-94.1,0.0,top
+Y1,X322512MSB4SI,Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,190.625,-107.05,0.0,top
