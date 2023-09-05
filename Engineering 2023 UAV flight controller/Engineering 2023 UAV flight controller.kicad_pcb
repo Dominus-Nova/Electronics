@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -200,7 +213,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 00014112-f3b1-4519-93c8-23d3c8ca5bb8)
-    (at 253.3 81.63)
+    (at 362.19 156)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -242,7 +255,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 030a1b7d-f7ef-4b6a-96eb-1733a16c273d)
-    (at 262.06 71.17)
+    (at 69.825 266.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -284,7 +297,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 069fcf96-466e-40c8-855a-abc2e7c0291c)
-    (at 270.08 70.3)
+    (at 146.15 176.75)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -326,7 +339,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 09963683-f578-4d7c-b2ff-590ce9c89d13)
-    (at 258.05 71.17)
+    (at 112 221.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -368,7 +381,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tedit 56DDBCCA) (tstamp 0d939993-4a11-4cb7-a068-fdc8ae30f514)
-    (at 63.5 131.8)
+    (at 25.2 111.4)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -411,7 +424,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_5x3" (layer "F.Cu")
     (tedit 5BCA39CF) (tstamp 0e215f39-2ed3-432b-9016-80fec542d922)
-    (at 228.42 94)
+    (at 438.8 89)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -476,7 +489,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0f13e256-d9cd-4b04-84ad-8b3c76737ced)
-    (at 271.3 65.28)
+    (at 123.4 172.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -518,7 +531,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 10030d75-f2e1-4fd1-995b-6b2361d517c5)
-    (at 201.62 53.15)
+    (at 465 98.975)
     (descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x10 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -581,7 +594,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 123152b9-a3a0-4af8-bc39-8cef626ba08e)
-    (at 279.14 57.63)
+    (at 136.6 254)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -623,7 +636,7 @@
 
   (footprint "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" (layer "F.Cu")
     (tedit 58CD3345) (tstamp 132016f5-341a-449c-b651-1eeb9fb7341b)
-    (at 203.82 90.65)
+    (at 349.3 130.08)
     (descr "SMD Crystal Oscillator Seiko Epson SG-8002LB https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC, 5.0x3.2mm^2 package")
     (tags "SMD SMT crystal oscillator")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -682,7 +695,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 13e41e0e-2a7f-45b6-a110-13aee0d59a86)
-    (at 271.3 67.79)
+    (at 115.6 167)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -724,7 +737,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 158441bf-aa0c-4ee9-ac12-4beddf153b28)
-    (at 267.29 65.28)
+    (at 64.425 267.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -766,7 +779,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 168eb9d4-6a5c-48ab-b2c6-47305f5d3592)
-    (at 235.1 56.6)
+    (at 152.8 222.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -808,7 +821,7 @@
 
   (footprint "Package_LGA:ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y" (layer "F.Cu")
     (tedit 5D9F7937) (tstamp 1cee564c-d226-4280-b981-99fa3af7bf5e)
-    (at 209.67 109.07)
+    (at 23.6 220.6)
     (descr "ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "ST HLGA NoLead")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -872,7 +885,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 1f2cc7b1-8c3a-4ed8-832f-ba603f685d2b)
-    (at 204.19 100.44)
+    (at 120.6 219.2)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -916,7 +929,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1fbddb07-5158-444b-a99a-cef91831a019)
-    (at 258.05 73.68)
+    (at 141.2 259.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -958,7 +971,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 20788a73-866b-4fd9-aafd-9e6edf8313a7)
-    (at 241.99 96.44)
+    (at 141.6 252.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1000,7 +1013,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2089d9da-6f23-4696-aa8e-28641b9e598a)
-    (at 284.69 52.08)
+    (at 132 259.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1042,7 +1055,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tedit 56DDBCCA) (tstamp 212d9b99-6d19-406d-b325-7920291f049d)
-    (at 148.3 131.8)
+    (at 110 111.4)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1085,7 +1098,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 313e6b2c-8e5a-4f74-94a1-fc38646d929e)
-    (at 253.3 79.12)
+    (at 362.19 153.49)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1127,7 +1140,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 340f4622-0424-4564-9d4e-e50d205e2eaa)
-    (at 202.82 80.65)
+    (at 449.4 85.46)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1176,7 +1189,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 371c6d01-6892-4539-ac01-d3bc3e73f942)
-    (at 198.84 108.49)
+    (at 47.6 160.8)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1220,7 +1233,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3963dbe5-a26c-45c3-9f96-12959dd45c76)
-    (at 229.74 109.48)
+    (at 361.815 147.69)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1262,7 +1275,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3aeea20c-1f76-4df2-9926-05d9f3371b59)
-    (at 243.46 93.93)
+    (at 375.535 132.14)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1304,7 +1317,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3c6adc69-5f72-4ac1-ac94-4b86ec91a240)
-    (at 233.97 98.68)
+    (at 366.045 136.89)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1346,7 +1359,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3cb29b30-1295-4b45-a34a-1057be35255b)
-    (at 237.98 96.44)
+    (at 370.055 134.65)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1388,7 +1401,7 @@
 
   (footprint "Inductor_SMD:L_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 3ec22f39-4e3e-4d8f-b7dc-1a1565019492)
-    (at 235.51 103.7)
+    (at 141.6 264.8)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1430,7 +1443,7 @@
 
   (footprint "SX1280:E28-2G4M27S" (layer "F.Cu")
     (tedit 0) (tstamp 4539b9b0-92ad-4242-9636-d774f179429b)
-    (at 190.8 78.41 180)
+    (at 22.6 275 180)
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
     (property "Sheetname" "")
     (path "/48e6ae9c-2b96-4b89-bc19-8b5e9d4f9e9b")
@@ -1489,7 +1502,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 45628a9e-0108-48ec-8ba4-18ec8a11c22d)
-    (at 245.77 67.78)
+    (at 456.2 110.675)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1538,7 +1551,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (layer "F.Cu")
     (tedit 5A7A67D2) (tstamp 467a37ec-c1c8-4b10-bacf-d88799224609)
-    (at 202.22 104.62)
+    (at 347.7 144.05)
     (descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
     (tags "SPST button tactile switch")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1590,7 +1603,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 47c41a4d-5600-48dd-a143-ad38f66060e6)
-    (at 272.53 62.65)
+    (at 376.165 150.72)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1632,7 +1645,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4c44e53f-9eb1-4810-875c-c4b40d496508)
-    (at 257.31 79.12)
+    (at 61 160.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1674,7 +1687,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4dd8adef-9ed8-4b88-b7d0-86442064c1ee)
-    (at 258.05 76.19)
+    (at 76.625 267.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1716,7 +1729,7 @@
 
   (footprint "MMC5983MA:MMC5983MA" (layer "F.Cu")
     (tedit 0) (tstamp 4eaab869-4445-4db7-a67e-45d65d78cf1a)
-    (at 237.2646 85.5446)
+    (at 70.225 258.8)
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
     (property "Sheetname" "")
     (path "/357beecd-919b-401e-b840-f3b5be37c3a3")
@@ -1841,7 +1854,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4ee8c673-4f4b-4e10-b2c3-2847f714a967)
-    (at 235.51 101.19)
+    (at 64.825 250.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1883,7 +1896,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
     (tedit 5F6F9B37) (tstamp 4fa12db1-ae3c-4f1d-a782-611058706ae4)
-    (at 235.67 53.12)
+    (at 352.7 161.68)
     (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1936,7 +1949,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 502ea233-2923-49ff-bcc2-b6cd19a966e1)
-    (at 261.32 78.7)
+    (at 75.225 250.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -1978,7 +1991,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 51fa1d2b-8289-48fc-93de-bb397717f924)
-    (at 275.31 65.16)
+    (at 59.225 267)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2020,7 +2033,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 530bdda8-8c62-4b3f-934f-9705f8b7bebe)
-    (at 262.06 76.19)
+    (at 365.695 164.26)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2062,7 +2075,7 @@
 
   (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (layer "F.Cu")
     (tedit 5F6BBB3E) (tstamp 54a2e506-08a3-47fb-b9d0-f31074d5d5f4)
-    (at 206.77 81.31)
+    (at 137.6 265.8)
     (descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2104,7 +2117,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 54e04f48-898b-41f4-9765-f7e2ae969b77)
-    (at 280.68 54.59)
+    (at 159.55 171.35)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2146,7 +2159,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 55999999-9fa9-4d57-89bd-bb9133bdfc69)
-    (at 221.72 109.48)
+    (at 55.4 163)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2188,7 +2201,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 56d35564-f720-4f4d-83a8-e240b83c045a)
-    (at 275.13 57.63)
+    (at 147.525 171.75)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2230,7 +2243,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 5fcea354-dd05-424b-855d-a2fb1715d575)
-    (at 183.62 82.27)
+    (at 446.4 99.575)
     (descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x10 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2293,14 +2306,14 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6126e946-6f1d-4b24-9ebf-f8dbbcdc45eb)
-    (at 241.83 88.91)
+    (at 373.905 127.12)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
     (property "Sheetname" "")
     (path "/4ccdd6a4-24f7-497b-8994-2398db7633f8")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C12" (at 0.12 -2.37) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cae9a281-a16f-4e9e-b1a9-ed8c82c7540e)
     )
@@ -2308,7 +2321,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1642a6b-21c3-493b-b669-0c62499b6328)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -2.28 -0.77) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp fb45316e-9bd2-403b-9110-4ffaf1d1978e)
     )
@@ -2335,7 +2348,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 62a4291a-0b9f-4525-9991-305ed9dea2c2)
-    (at 221.62 92.9)
+    (at 459.2 84.26)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2384,7 +2397,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 661c2180-4491-4dcf-8e0a-3110654fe92b)
-    (at 262.06 73.68)
+    (at 57.4 156.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2395,7 +2408,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1e6ecfc6-8574-45f5-bbec-e546380584ae)
     )
-    (fp_text value "4k7" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.43) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a37d4e2c-241f-45ce-a7b1-9ec7c9c8f336)
     )
@@ -2426,7 +2439,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 679317b8-47bf-4f93-9091-7971018f8901)
-    (at 226.15 59)
+    (at 156.6 223.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2468,7 +2481,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
     (tedit 5A70A390) (tstamp 6e17c291-945c-487e-b910-73c9b2773f5f)
-    (at 192.02 98.02)
+    (at 112.775 173.875)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2530,7 +2543,7 @@
 
   (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 6fec2283-a05d-4e73-9b07-6a02e1fad945)
-    (at 214.12 93.96)
+    (at 353.9 154.08)
     (descr "SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2592,7 +2605,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 753577a4-9077-485f-a249-aa11b8593389)
-    (at 276.54 60.14)
+    (at 110.4 166.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2634,7 +2647,7 @@
 
   (footprint "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal" (layer "F.Cu")
     (tedit 61ED8E5A) (tstamp 78525633-7071-4e90-8d2c-0729b765f7c7)
-    (at 213.445 81.5)
+    (at 151.4 260.85)
     (descr " Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682")
     (tags "SMA THT Female Jack Horizontal")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2701,7 +2714,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_8x6.5" (layer "F.Cu")
     (tedit 5BCA39D0) (tstamp 7cfb8855-6a8c-4e45-ad09-90763477f440)
-    (at 224.355 85.65)
+    (at 79.2 172.4)
     (descr "SMD capacitor, aluminum electrolytic, Rubycon, 8.0x6.5mm")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2766,7 +2779,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tedit 56DDBCCA) (tstamp 8259817e-fe10-4d53-bb82-715b8c0e4aa2)
-    (at 148.3 43.8)
+    (at 110 23.4)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2809,7 +2822,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 829e49c8-b6b2-4dcf-8fa4-49abc3311d10)
-    (at 225.95 98.68)
+    (at 72.2 220.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2851,7 +2864,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 85a2c228-f320-4e63-90a8-de7794ca132a)
-    (at 220.62 71.3)
+    (at 478.2 84.46)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2900,7 +2913,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8d97b40a-04ff-425d-bae5-5f60c84f56a9)
-    (at 246.38 86.18)
+    (at 59.825 251)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -2942,7 +2955,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" (layer "F.Cu")
     (tedit 5A02FC95) (tstamp 92c40f05-7bc2-47d9-9fc4-19e4a73ad069)
-    (at 258.65 55.85)
+    (at 141.6 222.8)
     (descr "Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf")
     (tags "switch spdt")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3059,7 +3072,7 @@
 
   (footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500" (layer "F.Cu")
     (tedit 6056970E) (tstamp 93d5d965-19fd-4826-886d-2bea45ccd38c)
-    (at 247.13 55.68)
+    (at 104 222.4)
     (descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
     (tags "USB C Type-C Receptacle SMD USB 2.0")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3144,7 +3157,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9588768a-0a8c-45de-a919-b6c4ffb2e34e)
-    (at 263.28 65.28)
+    (at 113.8 225.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3186,7 +3199,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a1dcab10-92e4-4ba3-91ed-3d93fea12715)
-    (at 250.39 86.18)
+    (at 75.625 256.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3228,7 +3241,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (layer "F.Cu")
     (tedit 5A7A67D2) (tstamp a2922344-9159-4fa5-8181-3cd68c475044)
-    (at 246.56 62.88)
+    (at 37.1 262.39)
     (descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
     (tags "SPST button tactile switch")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3280,7 +3293,7 @@
 
   (footprint "RF_GPS:ublox_NEO" (layer "F.Cu")
     (tedit 5E9E8DCC) (tstamp a4595710-df55-4908-9e3b-5788852bbac7)
-    (at 231.12 71.95)
+    (at 121 261.4)
     (descr "ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)")
     (tags "GPS ublox NEO 6/7/8")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3374,7 +3387,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a82de2fc-a96a-4292-8022-5771ae2e94a6)
-    (at 239.52 98.95)
+    (at 371.595 137.16)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3416,7 +3429,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b0e0e4b0-1589-42c3-a557-36f1cad14891)
-    (at 243.46 91.42)
+    (at 76.425 261.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3458,7 +3471,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b40b260e-be9e-490b-8012-61d0b6263b42)
-    (at 266.07 72.81)
+    (at 132.2 254.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3500,7 +3513,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b4816999-be42-47fb-9088-ecd89d8cf4a4)
-    (at 266.07 70.3)
+    (at 369.705 158.37)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3542,7 +3555,7 @@
 
   (footprint "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" (layer "F.Cu")
     (tedit 61FED288) (tstamp b8ab2623-8b80-435d-9b9b-50c82bdea164)
-    (at 267.35 60.85)
+    (at 60.425 258.8)
     (descr "24-Lead Plastic QFN (4mm x 4mm); Pitch 0.5mm; EP 2.7x2.6mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
     (tags "QFN 0.5")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3648,10 +3661,10 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 265.975 59.525)
-          (xy 268.725 59.525)
-          (xy 268.725 62.175)
-          (xy 265.975 62.175)
+          (xy 59.05 257.475)
+          (xy 61.8 257.475)
+          (xy 61.8 260.125)
+          (xy 59.05 260.125)
         )
       )
     )
@@ -3664,7 +3677,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp baf2edd7-5c55-490e-96dc-926a7a26f9fd)
-    (at 200.14 100.44)
+    (at 123 169.2)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3708,7 +3721,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bcde676c-6c40-43a0-8041-7af4c59ee26c)
-    (at 213.7 109.48)
+    (at 40.1 256.39)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3750,7 +3763,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp bd3ab16f-0ed9-4532-829c-24dfb73e04af)
-    (at 206.27 53.15)
+    (at 476 97.775)
     (descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x10 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3813,7 +3826,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp be430786-b671-4681-82e7-bea4b279aa9f)
-    (at 232.5 83.05)
+    (at 473.2 86)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3862,7 +3875,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be99c5c2-97f0-411b-af03-0ca4e187d378)
-    (at 231.5 103.7)
+    (at 70.025 250.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3904,7 +3917,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bee64c12-7aa1-42b0-bfac-6c812d3f3d1d)
-    (at 225.73 109.48)
+    (at 71.4 162.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3946,7 +3959,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bf53718c-8bac-4e11-90c8-e0f8503dc7c7)
-    (at 272.53 60.14)
+    (at 67.8 157.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -3988,7 +4001,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp c0547daf-e741-4831-9ccd-0d2b862397b9)
-    (at 202.89 108.49)
+    (at 106 267.2)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4032,7 +4045,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c114a948-27a8-4056-93e3-247480208f04)
-    (at 215.6 98.6)
+    (at 105.2 169.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4074,7 +4087,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tedit 56DDBCCA) (tstamp c481b6ed-7e45-4d7f-bb32-3c671ba9f599)
-    (at 63.5 43.8)
+    (at 25.2 23.4)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4117,7 +4130,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c610039a-9b33-4596-8f7e-5e10eed8630d)
-    (at 280.55 60.14)
+    (at 121.4 224.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4159,7 +4172,7 @@
 
   (footprint "Connector_Card:microSD_HC_Hirose_DM3D-SF" (layer "F.Cu")
     (tedit 61D4C10C) (tstamp c6f4d082-db4e-43a5-b177-72fdae5183d0)
-    (at 216.04 58.35)
+    (at 62.62 221.05)
     (descr "Micro SD, SMD, right-angle, push-pull (https://media.digikey.com/PDF/Data%20Sheets/Hirose%20PDFs/DM3D-SF.pdf)")
     (tags "Micro SD")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4246,10 +4259,10 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 214.065 54.475)
-          (xy 216.565 54.475)
-          (xy 216.565 52.625)
-          (xy 214.065 52.625)
+          (xy 60.645 217.175)
+          (xy 63.145 217.175)
+          (xy 63.145 215.325)
+          (xy 60.645 215.325)
         )
       )
     )
@@ -4260,10 +4273,10 @@
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
-          (xy 211.115 56.825)
-          (xy 219.615 56.825)
-          (xy 219.615 58.825)
-          (xy 211.115 58.825)
+          (xy 57.695 219.525)
+          (xy 66.195 219.525)
+          (xy 66.195 221.525)
+          (xy 57.695 221.525)
         )
       )
     )
@@ -4276,7 +4289,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c8bddfc6-c420-48f2-aabc-fdf219a3b4fe)
-    (at 254.4 84.14)
+    (at 363.29 158.51)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4318,7 +4331,7 @@
 
   (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3" (layer "F.Cu")
     (tedit 5A70FBB6) (tstamp ca97eec0-6286-4d6c-8269-18318d37ecec)
-    (at 255.6 109.4)
+    (at 63.4 171.4)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
     (property "Arrow Part Number" "LM2577SX-ADJ/NOPB")
@@ -4403,7 +4416,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (layer "F.Cu")
     (tedit 5A7A67D2) (tstamp ce3b6b52-2d64-48a3-8bbb-add5ddd0d4be)
-    (at 203.52 96.57)
+    (at 349 136)
     (descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
     (tags "SPST button tactile switch")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4455,7 +4468,7 @@
 
   (footprint "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm" (layer "F.Cu")
     (tedit 5F737C51) (tstamp d14fc8e1-6493-4d1a-87c4-597eb5f2ebb3)
-    (at 275.9 53.6)
+    (at 154.2 172.6)
     (descr "WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "WSON NoLead")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4516,7 +4529,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tedit 5C745284) (tstamp d432315c-a4d9-4c59-b7b3-ae0a6b00381d)
-    (at 209.32 88.1)
+    (at 354.8 127.53)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4579,7 +4592,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d6afc383-0c10-4df4-86e0-7a73c42f67a6)
-    (at 257.31 81.63)
+    (at 366.2 156)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4621,7 +4634,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D2.5mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp d722ae5a-40f2-4765-96c0-3e86358cf2df)
-    (at 249.02 80.14)
+    (at 129.8 170.6)
     (descr "SMD pad as test Point, diameter 2.5mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4648,7 +4661,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d9f70fb6-a602-403b-b38c-2f61513ba54b)
-    (at 248.75 83.67)
+    (at 108.4 262)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4690,7 +4703,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_5x3" (layer "F.Cu")
     (tedit 5BCA39CF) (tstamp daad3174-2c6f-417d-9990-e557cb6824e9)
-    (at 228.62 54.32)
+    (at 164.6 223.6)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm")
     (tags "capacitor electrolytic")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4755,7 +4768,7 @@
 
   (footprint "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS" (layer "F.Cu")
     (tedit 5D8A6F59) (tstamp dab71cad-74de-44fd-b37c-7be8b09d1e4e)
-    (at 193.22 86.97)
+    (at 29.4 177)
     (descr "Shielded Power Inductor, Wuerth Elektronik, WE-PD, SMD, Typ LS, https://katalog.we-online.com/pbs/datasheet/7447715906.pdf")
     (tags "Choke Shielded Power Inductor WE-PD TypLS Wuerth")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4857,7 +4870,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp deabdaee-e1b8-41e7-84d9-71bb7de9c1a5)
-    (at 280.68 52.08)
+    (at 384.315 140.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4899,7 +4912,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D2.5mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp df8076e7-bb39-4796-8a9c-73997e3e4d60)
-    (at 235.17 92.7)
+    (at 41.8 181.8)
     (descr "SMD pad as test Point, diameter 2.5mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4926,7 +4939,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp dffa8f3d-bfd8-4509-85dd-96f429050282)
-    (at 239.45 91.42)
+    (at 371.525 129.63)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -4968,7 +4981,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e3a64387-525b-4867-9c07-bbc99abd56ac)
-    (at 245.84 88.91)
+    (at 150.75 178.55)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5010,7 +5023,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tedit 5C745284) (tstamp e556e657-1db5-42a7-b1de-a5270684f2af)
-    (at 213.67 88.1)
+    (at 359.15 127.53)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5073,7 +5086,7 @@
 
   (footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (layer "F.Cu")
     (tedit 627AC11D) (tstamp e6e2ab13-4bff-45a6-b6f6-1fe91e229837)
-    (at 256.63 65.27)
+    (at 342.5 154.48)
     (descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5236,7 +5249,7 @@
 
   (footprint "TestPoint:TestPoint_Pad_D2.5mm" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp e71e44f3-3847-4db8-b186-c6accaff703c)
-    (at 242.1 85.38)
+    (at 160.2 179.4)
     (descr "SMD pad as test Point, diameter 2.5mm")
     (tags "test point SMD pad")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5263,7 +5276,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e800829b-2df3-4219-87eb-cb6270ed2d35)
-    (at 247.47 91.42)
+    (at 379.545 129.63)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5305,7 +5318,7 @@
 
   (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (layer "F.Cu")
     (tedit 5F6BBB3E) (tstamp e9200aeb-0b84-40f0-8875-e515f3731a57)
-    (at 229.78 58.74)
+    (at 152.8 227.8)
     (descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5347,7 +5360,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp ec7b4b92-a469-47b6-aeaa-32bec917bf7b)
-    (at 241.12 67.78)
+    (at 466.8 85.675)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5396,7 +5409,7 @@
 
   (footprint "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (layer "F.Cu")
     (tedit 5F6BBB3E) (tstamp ede12c2e-df20-40eb-b2e5-4ea29491423f)
-    (at 206.77 79.32)
+    (at 132.4 265.6)
     (descr "Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor handsolder")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5438,7 +5451,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp eed0d8b3-968d-438f-a5b8-190edf4ea5d4)
-    (at 229.96 98.68)
+    (at 18.6 221.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5480,7 +5493,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp eefa7791-08e5-4a61-a701-1ba03f63730a)
-    (at 231.5 101.19)
+    (at 363.575 139.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5522,7 +5535,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f522455f-dbcf-41d3-8ec7-39ccbb850e56)
-    (at 276.54 62.65)
+    (at 74.8 157.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5533,7 +5546,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29f8a2e3-ab4d-4b46-95dd-9db84a1d3bb4)
     )
-    (fp_text value "1000" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1k8" (at 0 1.43) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2cde3827-46e1-4bf0-a078-430074de6aea)
     )
@@ -5564,7 +5577,7 @@
 
   (footprint "Diode_SMD:D_SMC" (layer "F.Cu")
     (tedit 5864295D) (tstamp f5519719-3400-4bad-a5bd-5851049361b0)
-    (at 191.37 105.92)
+    (at 45.4 170.2)
     (descr "Diode SMC (DO-214AB)")
     (tags "Diode SMC (DO-214AB)")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5613,7 +5626,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tedit 5C745284) (tstamp f6363227-9e21-4ba3-bb63-fe704522dd44)
-    (at 183.47 109.22)
+    (at 30.6 221.2)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5676,7 +5689,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f66f3982-010d-43fc-82c3-e8489ee5c520)
-    (at 284.69 54.59)
+    (at 81.025 267.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5718,7 +5731,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f7a621ae-2bf9-472a-92ce-b0fefa8f3937)
-    (at 267.29 67.79)
+    (at 370.925 155.86)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5760,7 +5773,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp f91036aa-d3f7-4b90-8687-d05125b50359)
-    (at 211.27 99.67)
+    (at 456.4 98.475)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5809,7 +5822,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fa2878a4-34c8-4993-931e-2defa3f0591a)
-    (at 239.45 93.93)
+    (at 33.9 256.19)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5851,7 +5864,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fadb728d-9a91-42b6-8570-ba69957f714e)
-    (at 249.85 88.69)
+    (at 136.8 259.2)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Engineering 2023 UAV flight controller.kicad_sch")
@@ -5891,21 +5904,21 @@
     )
   )
 
-  (gr_line (start 57.4 125.82) (end 69.48 125.82) (layer "Edge.Cuts") (width 0.1) (tstamp 00b88e99-146d-4aa0-a0ce-b7cb87905da8))
-  (gr_line (start 154.19 125.8) (end 142.18 125.8) (layer "Edge.Cuts") (width 0.1) (tstamp 07079179-57a6-4688-92c5-53f3301f173c))
-  (gr_line (start 69.46 49.82) (end 69.48 125.82) (layer "Edge.Cuts") (width 0.1) (tstamp 2857595e-1812-4528-903a-c7c33cacb1a1))
-  (gr_line (start 154.26 49.82) (end 142.26 49.82) (layer "Edge.Cuts") (width 0.1) (tstamp 52e7085c-567a-46ed-ae94-f34f2fbf0a58))
-  (gr_line (start 154.2 137.8) (end 154.19 125.8) (layer "Edge.Cuts") (width 0.1) (tstamp 56d6eb3d-9378-4386-8a58-2b46e054f04f))
-  (gr_line (start 154.26 37.82) (end 154.26 49.82) (layer "Edge.Cuts") (width 0.1) (tstamp 7e1dab10-22d0-4e15-b46c-b6b0547eb48d))
-  (gr_line (start 142.185 37.82) (end 154.26 37.82) (layer "Edge.Cuts") (width 0.1) (tstamp 841693cf-3e49-4e34-b312-bafb811122ed))
-  (gr_line (start 142.185 37.82) (end 69.46 37.82) (layer "Edge.Cuts") (width 0.1) (tstamp 85956168-d5e4-467a-bba8-d06c407b72cf))
-  (gr_line (start 142.18 125.8) (end 142.26 49.82) (layer "Edge.Cuts") (width 0.1) (tstamp 8e02b5c1-a3af-4499-a31e-c88a81b95287))
-  (gr_line (start 142.185 137.795) (end 154.2 137.8) (layer "Edge.Cuts") (width 0.1) (tstamp 8f6eca3a-7a66-46b9-b047-65a4e58b98bc))
-  (gr_line (start 57.46 49.82) (end 69.46 49.82) (layer "Edge.Cuts") (width 0.1) (tstamp 9cee2e9d-7262-4bcb-97a2-7e523ac33aee))
-  (gr_line (start 69.46 137.795) (end 142.185 137.795) (layer "Edge.Cuts") (width 0.1) (tstamp b2a72d40-d7ea-454b-b6fc-800629052d7f))
-  (gr_line (start 57.4 137.8) (end 57.4 125.82) (layer "Edge.Cuts") (width 0.1) (tstamp bdd6fde3-169d-4c88-a159-6f57df3b5ad3))
-  (gr_line (start 69.46 137.795) (end 57.4 137.8) (layer "Edge.Cuts") (width 0.1) (tstamp c2edb3fc-dd4a-42ca-892d-f0177b6bdf61))
-  (gr_line (start 69.46 37.82) (end 57.46 37.82) (layer "Edge.Cuts") (width 0.1) (tstamp cab55931-bbc3-49df-929e-395a7c3f0dbc))
-  (gr_line (start 57.46 37.82) (end 57.46 49.82) (layer "Edge.Cuts") (width 0.1) (tstamp de696408-38ab-49a3-9533-4479f1b98b3e))
+  (gr_line (start 19.1 105.42) (end 31.18 105.42) (layer "Edge.Cuts") (width 0.1) (tstamp 00b88e99-146d-4aa0-a0ce-b7cb87905da8))
+  (gr_line (start 115.89 105.4) (end 103.88 105.4) (layer "Edge.Cuts") (width 0.1) (tstamp 07079179-57a6-4688-92c5-53f3301f173c))
+  (gr_line (start 31.16 29.42) (end 31.18 105.42) (layer "Edge.Cuts") (width 0.1) (tstamp 2857595e-1812-4528-903a-c7c33cacb1a1))
+  (gr_line (start 115.96 29.42) (end 103.96 29.42) (layer "Edge.Cuts") (width 0.1) (tstamp 52e7085c-567a-46ed-ae94-f34f2fbf0a58))
+  (gr_line (start 115.9 117.4) (end 115.89 105.4) (layer "Edge.Cuts") (width 0.1) (tstamp 56d6eb3d-9378-4386-8a58-2b46e054f04f))
+  (gr_line (start 115.96 17.42) (end 115.96 29.42) (layer "Edge.Cuts") (width 0.1) (tstamp 7e1dab10-22d0-4e15-b46c-b6b0547eb48d))
+  (gr_line (start 103.885 17.42) (end 115.96 17.42) (layer "Edge.Cuts") (width 0.1) (tstamp 841693cf-3e49-4e34-b312-bafb811122ed))
+  (gr_line (start 103.885 17.42) (end 31.16 17.42) (layer "Edge.Cuts") (width 0.1) (tstamp 85956168-d5e4-467a-bba8-d06c407b72cf))
+  (gr_line (start 103.88 105.4) (end 103.96 29.42) (layer "Edge.Cuts") (width 0.1) (tstamp 8e02b5c1-a3af-4499-a31e-c88a81b95287))
+  (gr_line (start 103.885 117.395) (end 115.9 117.4) (layer "Edge.Cuts") (width 0.1) (tstamp 8f6eca3a-7a66-46b9-b047-65a4e58b98bc))
+  (gr_line (start 19.16 29.42) (end 31.16 29.42) (layer "Edge.Cuts") (width 0.1) (tstamp 9cee2e9d-7262-4bcb-97a2-7e523ac33aee))
+  (gr_line (start 31.16 117.395) (end 103.885 117.395) (layer "Edge.Cuts") (width 0.1) (tstamp b2a72d40-d7ea-454b-b6fc-800629052d7f))
+  (gr_line (start 19.1 117.4) (end 19.1 105.42) (layer "Edge.Cuts") (width 0.1) (tstamp bdd6fde3-169d-4c88-a159-6f57df3b5ad3))
+  (gr_line (start 31.16 117.395) (end 19.1 117.4) (layer "Edge.Cuts") (width 0.1) (tstamp c2edb3fc-dd4a-42ca-892d-f0177b6bdf61))
+  (gr_line (start 31.16 17.42) (end 19.16 17.42) (layer "Edge.Cuts") (width 0.1) (tstamp cab55931-bbc3-49df-929e-395a7c3f0dbc))
+  (gr_line (start 19.16 17.42) (end 19.16 29.42) (layer "Edge.Cuts") (width 0.1) (tstamp de696408-38ab-49a3-9533-4479f1b98b3e))
 
 )
