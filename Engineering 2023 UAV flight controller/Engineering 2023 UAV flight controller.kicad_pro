@@ -375,7 +375,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.5,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -384,6 +384,10 @@
         "microvia_drill": 0.1,
         "name": "Vin",
         "nets": [
+          "/ESC positive rail",
+          "/Servo 6V rail",
+          "/USB_C positive rail",
+          "/pwr_in",
           "/reg in"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -406,9 +410,7 @@
         "nets": [
           "/1.1V internal rp2040 reg",
           "/3.3v rail",
-          "/ESC positive rail",
-          "/Servo 6V rail",
-          "/USB_C positive rail",
+          "/NEO 3.3v rail",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
