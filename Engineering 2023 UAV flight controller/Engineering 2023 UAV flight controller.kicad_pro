@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -408,7 +408,6 @@
         "microvia_drill": 0.1,
         "name": "power",
         "nets": [
-          "/1.1V internal rp2040 reg",
           "/3.3v rail",
           "/NEO 3.3v rail",
           "GND"
