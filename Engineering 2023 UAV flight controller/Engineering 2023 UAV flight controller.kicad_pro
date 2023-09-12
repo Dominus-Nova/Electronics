@@ -408,7 +408,6 @@
         "microvia_drill": 0.1,
         "name": "power",
         "nets": [
-          "/3.3v rail",
           "/NEO 3.3v rail",
           "GND"
         ],
